@@ -37,11 +37,22 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+
+
+
 **FULLADDER**
+
+
+
+
 <img width="355" alt="image" src="https://github.com/user-attachments/assets/84ecd12b-851e-494d-89e7-d9b8c7880b74">
 
 
 **FULL SUBTRACTOR**
+
+
+
+
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/9c88f1bf-16ae-4692-9fc5-6b3afc60ee68">
 
 
