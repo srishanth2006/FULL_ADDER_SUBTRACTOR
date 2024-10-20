@@ -63,16 +63,18 @@ Borrow out = A'Bin + A'B + BBin
 Name :SRISHANTH J
 Register no:212223240160
 ```
+
+**Full adder**
 ```
-#Full adder
 module proj_41(a,b,cin,sum,carry);
 input a,b,cin;
 output sum, carry;
 assign sum=(a^b^cin);
 assign carry=((a&b)|(b&cin)|(cin&a));
 endmodule
-
-#Full Subtractor
+```
+**Full Subtractor**
+```
 module proj_42(a,b,bin,borr,diff);
 input a,b,bin;
 output diff, borr;
@@ -84,18 +86,18 @@ endmodule
 
 **RTL Schematic**
 
-#FULL ADDER
+**FULL ADDER**
 <img width="734" alt="image" src="https://github.com/user-attachments/assets/56df3539-a017-496d-bdcc-44b05be5d8c2">
 
-#FULL SUBTRACTOR
+**FULL SUBTRACTOR**
 <img width="733" alt="image" src="https://github.com/user-attachments/assets/684a1fda-5930-4eb1-a409-16dbd362105b">
 
 
 **Output Timing Waveform**
-#FULL ADDER
+**FULL ADDER**
 <img width="731" alt="image" src="https://github.com/user-attachments/assets/fe555efa-d96a-4aa6-ad94-60f3cc6c23dd">
 
-#Full Subtractor
+**Full Subtractor**
 <img width="733" alt="image" src="https://github.com/user-attachments/assets/55b123d4-6971-49ba-8c8c-f42c896701d8">
 
 **Result:**
